@@ -1,15 +1,23 @@
 {
-  "name": "secrets",
+  "name": "authenticationandsecurity",
   "version": "1.0.0",
-  "description": "",
+  "description": "Learning Authentication And Security from Level 1 to Level 6",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsamanvishwakarma/authenticationAndSecurity.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsamanvishwakarma/authenticationAndSecurity/issues"
+  },
+  "homepage": "https://github.com/itsamanvishwakarma/authenticationAndSecurity#readme",
   "dependencies": {
+    "bcrypt": "^5.1.0",
     "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
     "ejs": "^3.1.8",
